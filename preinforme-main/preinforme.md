@@ -57,5 +57,7 @@ Tuvimos en cuenta diferentes tareas que necesitan aplicar los algoritmos para su
 
 4. Problemas afrontados en el desarrollo 
 
-Cuando comenzamos el proceso de desarrollo del desafío enfrentamos problemas conceptuales, ya que no entendíamos el proceso de compresión LZ78, también dificultades cuando se hace el proceso de desencriptado usando rotación de bits. 
+Cuando comenzamos el proceso de desarrollo del desafío enfrentamos problemas conceptuales,ya que no entendíamos el proceso de compresión LZ78, también dificultades cuando se hace el proceso de desencriptado usando rotación de bits. 
+
+La complejidad del algoritmo LZ78, es la gestion dinamica del diccionario, porque en si, si crece mucho, se puede agotar la memoria. Y la descompresion RLE, podria ser, manejar los casos limite como secuncias de un solo caracter, o secuncias que continuan hasta el final del mensaje
 
